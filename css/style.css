@@ -13,6 +13,7 @@
     --color-shadow3: rgba(0, 0, 0, 0.2);
     --background-color2: #2f303a;
     --background-color3: #e5e5e5;
+    --backgraund-color7: rgba(0, 0, 0, 0.25);
 
     --color-text6: rgba(255, 255, 255, 0.6);
     --border-color: #ececec;
@@ -234,23 +235,6 @@
     display: flex;
     gap: 30px;
     align-items: center;
-}
-.icon-list {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    gap: 30px;
-    padding-bottom: 20px;
-}
-.icon-element {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-}
-.icon-element:hover {
-    fill: var(--background-color6);
-    fill: var(--color-text5);
 }
 
 .text-li {
@@ -488,28 +472,26 @@
     align-items: center;
 }
 .footer-icon {
-    display: flex;
     align-items: center;
     flex-direction: column;
 
     padding: 60px 40px;
 }
-.social-icon {
-    display: flex;
-    gap: 10px;
-    margin-block-start: 0;
-    padding-inline-start: 0;
-    padding-top: 11px;
-}
+
 .item-footer {
     list-style: none;
     padding-bottom: 15px;
 }
+
 .text-icon {
     font-size: 14px;
     color: var(--color-text5);
-    display: flex;
-    align-items: flex-start;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
 }
 .function-icon {
     background-color: var(--background-color4);
@@ -549,4 +531,61 @@
 }
 .logo:hover {
     border: 1px solid var(--border-color3);
+}
+
+.icon-list {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 20px;
+    gap: 10px;
+}
+.social-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color);
+    border-radius: 50%;
+}
+.icon-link:hover {
+    background-color: var(--background-color6);
+    --color3: var(--color-text5);
+}
+.social-icon-footer {
+    display: flex;
+    padding-inline-start: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    gap: 10px;
+}
+.icon-footer {
+    width: 20px;
+    height: 20px;
+}
+.icon-link-footer {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    background-color: var(--backgraund-color7);
+    justify-content: center;
+    border-radius: 50%;
+}
+.icon-link-footer:hover {
+    background-color: var(--background-color6);
+}
+.social-icon-portfolio {
+    display: flex;
+    padding-inline-start: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    gap: 10px;
+    padding-top: 20px;
 }
