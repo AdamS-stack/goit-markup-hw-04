@@ -21,6 +21,7 @@
 
     --border-color1: #eeeeee;
     --border-color2: #afb1b8;
+    --border-color3: #2196f3;
     --border-radius: 4px;
     --linear-gradient: rgba(47, 48, 58, 0.4);
 }
@@ -544,4 +545,8 @@
     width: 170px;
     height: 92px;
     border: 1px solid var(--border-color2);
+    cursor: pointer;
+}
+.logo:hover {
+    border: 1px solid var(--border-color3);
 }
