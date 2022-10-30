@@ -539,7 +539,14 @@
     border: 1px solid var(--border-color2);
     cursor: pointer;
 }
-.logo:hover {
+
+.logo-4 {
+    border: 1px solid var(--border-color2);
+    width: 170px;
+    height: 92px;
+    cursor: pointer;
+}
+.logo-4:hover {
     border: 1px solid var(--border-color3);
 }
 
