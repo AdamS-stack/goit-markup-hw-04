@@ -6,6 +6,7 @@
     --background-color6: #2196f3;
     --color-text4: #000000;
     --color-text5: #ffffff;
+    --color-text7: #afb1b8;
     --background-color1: #2f303a;
     --color-shadow: rgba(0, 0, 0, 0.15);
     --color-shadow1: rgba(0, 0, 0, 0.12);
@@ -566,13 +567,17 @@
 }
 .customer-icon-4 {
     cursor: pointer;
-    border: 1px solid var(--border-color3);
+    border: 1px solid var(--border-color2);
     display: flex;
     padding: 16px 32px;
+    --color2: var(--color-text7);
 
     border-radius: 4px;
 }
-
+.customer-icon-4:hover {
+    border: 1px solid var(--border-color3);
+    --color2: var(--color-text3);
+}
 .icon-list {
     display: flex;
     text-align: center;
